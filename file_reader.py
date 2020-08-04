@@ -41,7 +41,7 @@ def identify_string_type(text):
         
         if word:
             text_words += word + ' - ' + str_type + '\n'
-    
+    text_words += '\n-END-\n'
     return text_words
 
 
